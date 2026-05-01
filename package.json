@@ -1,0 +1,19 @@
+{
+  "name": "railway-xhttp-relay",
+  "version": "1.0.0",
+  "description": "XHTTP relay for Xray/V2Ray on Railway",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
